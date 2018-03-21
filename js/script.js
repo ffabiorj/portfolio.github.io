@@ -1,13 +1,16 @@
+var $li = document.querySelector("threeline-icon");
+
 function openNav() {
     
-    var x = document.getElementById("navigation");
-    console.log(x);
-    if (x.className === "navigation") {
-        x.classList.add("menujs");
+    var $navigation = document.getElementById("navigation");
+    if ($navigation.className === "navigation") {
+        $navigation.classList.add("menujs");
         document.getElementById("threeline-icon").innerHTML = "&Cross;";
         
     } else {
-        x.className = "navigation";
+        $navigation.className = "navigation";
         document.getElementById("threeline-icon").innerHTML = "&#9776;";
     }
 }
+
+$li.addEventListiner("click", openNav);
