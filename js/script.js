@@ -1,4 +1,4 @@
-var $li = document.querySelector("threeline-icon");
+var $li = document.querySelector('[data-js="threeline-icon"]');
 
 function openNav() {
     
@@ -13,4 +13,5 @@ function openNav() {
     }
 }
 
-$li.addEventListiner("click", openNav);
+
+$li.addEventListener("click", openNav);

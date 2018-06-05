@@ -219,7 +219,6 @@ body {
 }
 
 .back-link  {
-    
     color: #f27609;
 }
 
@@ -287,11 +286,11 @@ body {
     }
 
     .container {
-        padding: 10px 5% 10px 5%;
+        padding: 10px 12% 10px 12%;
     }
 
     .container p {
-        text-align: center;
+
         line-height: 30px;
     }
 
