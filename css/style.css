@@ -244,9 +244,12 @@ body {
 }
 
 @media (max-width: 1000px) {
+    
+
     .navigation {
         height: 80px;
     }
+
     .navigation li {
         display: none;
     }
@@ -259,15 +262,18 @@ body {
 
     .threeline-icon {
         margin-top: 15px;
+        transition: 1s;
     }
 
     .profile div {
         display: block;
         height: auto;
+        
     }
 
     .profile-pic {
         width: 100%;
+        transition: 1s;
     }
 
     .profile-pic img {
@@ -321,6 +327,7 @@ body {
     }
 
     .menujs ul {
+        transition: 1s;
         height: auto;
         text-align: center;
         padding-right: 15%;
